@@ -69,7 +69,6 @@ img {
 /************************************************
     SITE SECTIONS
  ************************************************/
-
 /* HEADER */
 .site-header {
     margin-top: 3rem;
@@ -107,12 +106,6 @@ img {
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
-}
-
 /* WHY US SECTION */
 .why-us {
     margin-bottom: 3rem;
@@ -130,6 +123,13 @@ img {
     margin-bottom: 2.5rem;
 }
 
+/* MEDIA QUERY */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .row {
         flex-wrap: wrap;
@@ -139,6 +139,12 @@ img {
     .lessons .col, .steps .col, .why-us .col {
         width: 90%;   
         padding-bottom: 40px; 
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
     }
 }
 
