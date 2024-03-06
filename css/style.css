@@ -98,14 +98,6 @@ img {
     color: #232946;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
-    
-    .
-}
-
 .steps .col {
     width: calc(100% / 3);
 }
@@ -113,6 +105,12 @@ img {
 .steps .col img {
     height: 200px;
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
 }
 
 /* WHY US SECTION */
