@@ -130,6 +130,18 @@ img {
     margin-bottom: 2.5rem;
 }
 
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .lessons .col, .steps .col, .why-us .col {
+        width: 90%;   
+        padding-bottom: 40px; 
+    }
+}
+
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
